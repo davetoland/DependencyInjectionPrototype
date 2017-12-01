@@ -1,0 +1,6 @@
+D:\GitHub\DependencyInjectionPrototype\DependencyInjectionPrototype.Shared\bin\Debug\DependencyInjectionPrototype.Shared.dll
+D:\GitHub\DependencyInjectionPrototype\DependencyInjectionPrototype.Shared\bin\Debug\DependencyInjectionPrototype.Shared.pdb
+D:\GitHub\DependencyInjectionPrototype\DependencyInjectionPrototype.Shared\obj\Debug\DependencyInjectionPrototype.Shared.csprojResolveAssemblyReference.cache
+D:\GitHub\DependencyInjectionPrototype\DependencyInjectionPrototype.Shared\obj\Debug\DependencyInjectionPrototype.Shared.csproj.CoreCompileInputs.cache
+D:\GitHub\DependencyInjectionPrototype\DependencyInjectionPrototype.Shared\obj\Debug\DependencyInjectionPrototype.Shared.dll
+D:\GitHub\DependencyInjectionPrototype\DependencyInjectionPrototype.Shared\obj\Debug\DependencyInjectionPrototype.Shared.pdb
