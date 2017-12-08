@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using DependencyInjectionPrototype.Shared;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Unity;
 
 namespace DependencyInjectionPrototype.Tests
@@ -9,8 +10,8 @@ namespace DependencyInjectionPrototype.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var bootstrapper = new IocBootstrapper();
-            IUnityContainer container = bootstrapper.GetContainer();
+            var bootstrapper = new UnityBootstrapper();
+            InjectionContainer container = bootstrapper.GetContainer();
             var mgr = new GenericManager(container);
 
             string val1 = mgr.GetOutput1();

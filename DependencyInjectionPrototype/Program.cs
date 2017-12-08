@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DependencyInjectionPrototype.Shared;
+using System;
 using Unity;
 
 namespace DependencyInjectionPrototype
@@ -7,8 +8,8 @@ namespace DependencyInjectionPrototype
     {
         static void Main(string[] args)
         {
-            var bootstrapper = new IocBootstrapper();
-            IUnityContainer container = bootstrapper.GetContainer();
+            var bootstrapper = new UnityBootstrapper();
+            InjectionContainer container = bootstrapper.GetContainer();
             var mgr = new GenericManager(container);
 
             Console.WriteLine(mgr.GetOutput1());

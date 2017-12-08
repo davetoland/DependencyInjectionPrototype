@@ -10,11 +10,11 @@ namespace DependencyInjectionPrototype
         private IClass2 _class2 = null;
         private IClass3 _class3 = null;
 
-        public GenericManager(IUnityContainer ioc)
+        public GenericManager(InjectionContainer ioc)
         {
-            _class1 = ioc.Resolve<IClass1>();
-            _class2 = ioc.Resolve<IClass2>();
-            _class3 = ioc.Resolve<IClass3>();
+            _class1 = ioc.Get<IClass1>();
+            _class2 = ioc.Get<IClass2>();
+            _class3 = ioc.Get<IClass3>();
         }
 
         public string GetOutput1()
