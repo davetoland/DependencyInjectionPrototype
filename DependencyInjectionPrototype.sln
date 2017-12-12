@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionPrototyp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionPrototype.Shared", "DependencyInjectionPrototype.Shared\DependencyInjectionPrototype.Shared.csproj", "{6FA219D3-27AC-4E84-85C5-A3AE90997321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionPrototype.Mvc", "DependencyInjectionPrototype.Mvc\DependencyInjectionPrototype.Mvc.csproj", "{32BAF2E2-30F5-440B-9D6B-1E869735FCD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6FA219D3-27AC-4E84-85C5-A3AE90997321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA219D3-27AC-4E84-85C5-A3AE90997321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA219D3-27AC-4E84-85C5-A3AE90997321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BAF2E2-30F5-440B-9D6B-1E869735FCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BAF2E2-30F5-440B-9D6B-1E869735FCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BAF2E2-30F5-440B-9D6B-1E869735FCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BAF2E2-30F5-440B-9D6B-1E869735FCD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

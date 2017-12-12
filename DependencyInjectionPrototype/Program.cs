@@ -8,8 +8,8 @@ namespace DependencyInjectionPrototype
     {
         static void Main(string[] args)
         {
-            var bootstrapper = new UnityBootstrapper();
-            InjectionContainer container = bootstrapper.GetContainer();
+            var bootstrapper = new Bootstrapper();
+            IInjectionContainer container = bootstrapper.GetContainer();
             var mgr = new GenericManager(container);
 
             Console.WriteLine(mgr.GetOutput1());

@@ -10,8 +10,8 @@ namespace DependencyInjectionPrototype.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var bootstrapper = new UnityBootstrapper();
-            InjectionContainer container = bootstrapper.GetContainer();
+            var bootstrapper = new Bootstrapper();
+            IInjectionContainer container = bootstrapper.GetContainer();
             var mgr = new GenericManager(container);
 
             string val1 = mgr.GetOutput1();

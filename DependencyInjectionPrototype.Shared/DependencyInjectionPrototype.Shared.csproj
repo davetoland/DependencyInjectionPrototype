@@ -67,8 +67,8 @@
     <Compile Include="IClass1.cs" />
     <Compile Include="IClass2.cs" />
     <Compile Include="IClass3.cs" />
-    <Compile Include="InjectionContainer.cs" />
-    <Compile Include="IocBootstrapper.cs" />
+    <Compile Include="IIocBootstrapper.cs" />
+    <Compile Include="IInjectionContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
