@@ -8,7 +8,7 @@ namespace DependencyInjectionPrototype
     {
         static void Main(string[] args)
         {
-            var bootstrapper = new Bootstrapper();
+            var bootstrapper = new UnityBootstrapper();
             IInjectionContainer container = bootstrapper.GetContainer();
             var mgr = new GenericManager(container);
 

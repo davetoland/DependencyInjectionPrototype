@@ -179,7 +179,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="IocDependencyResolver.cs" />
-    <Compile Include="UnityInjectionContainer.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\Class2.cs" />
     <Compile Include="Models\Class3.cs" />

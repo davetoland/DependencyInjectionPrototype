@@ -12,9 +12,9 @@ namespace DependencyInjectionPrototype
 
         public GenericManager(IInjectionContainer ioc)
         {
-            _class1 = ioc.Get<IClass1>();
-            _class2 = ioc.Get<IClass2>();
-            _class3 = ioc.Get<IClass3>();
+            _class1 = ioc.Resolve<IClass1>();
+            _class2 = ioc.Resolve<IClass2>();
+            _class3 = ioc.Resolve<IClass3>();
         }
 
         public string GetOutput1()

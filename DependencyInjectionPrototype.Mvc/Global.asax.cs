@@ -21,7 +21,7 @@ namespace DependencyInjectionPrototype.Mvc
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
 
-            IIocBootstrapper bootstrapper = new IocBootstrapper();
+            IIocBootstrapper bootstrapper = new UnityBootstrapper();
             IInjectionContainer container = bootstrapper.GetContainer();
             DependencyResolver.SetResolver(new IocDependencyResolver(container));
         }

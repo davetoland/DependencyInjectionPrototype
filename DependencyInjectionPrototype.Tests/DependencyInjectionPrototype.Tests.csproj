@@ -72,7 +72,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="UnityBootstrapper.cs" />
     <Compile Include="MockClass1.cs" />
     <Compile Include="MockClass2.cs" />
     <Compile Include="MockClass3.cs" />
